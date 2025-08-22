@@ -1,0 +1,234 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    letter-spacing: 0.02em;
+}
+
+.logo {
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.logo span {
+    color: #2e2f42;
+}
+
+/* flex box test*/
+.menu {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 24px 332px 24px 76px;
+    padding: 0;
+
+}
+
+.menu-nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 156px;
+
+}
+
+.adress-info {
+    margin: 24px 156px 24px 40px;
+}
+
+.headeeer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+.header-info {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*  */
+ul,
+ol {
+    list-style-type: none;
+}
+
+.link-studio {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.adress-info {
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+a {
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+header {
+    font-family: 'releway', sans-serif;
+}
+
+header a:hover,
+header a:focus {
+    color: #404BBF;
+}
+
+header a {
+    color: #434455;
+}
+
+h1 {
+    font-size: 56px;
+
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.top-banner {
+    background-color: #2E2F42;
+    color: white;
+    text-align: center;
+    align-content: center;
+    /* test */
+
+    height: 600px;
+}
+
+.top-banner-h-one {
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.button-order {
+    background-color: #4D5AE5;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    /* тест */
+    margin-bottom: 20px;
+}
+
+.button-order:focus {
+    background-color: #404bbf;
+}
+
+button:hover {
+    background-color: #404BBF;
+    /* тествування  */
+
+    box-shadow: 0 0 10px 5px rgba(80, 61, 255, 0.9);
+
+}
+
+.fotter-style {
+    background-color: #2E2F42;
+    color: white;
+}
+
+.logo-footer {
+    color: white;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    /* uppercase - текст усі букви великі */
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.logo-footer span {
+    color: #f4f4FD;
+}
+
+.footer-p {
+    line-height: 1.5;
+    color: #f4f4FD;
+    letter-spacing: 0.02em;
+}
+
+
+
+.three-h {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.setting-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team-section {
+    background-color: #f4f4FD;
+}
+
+.team-section-h-second {
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    /* Перша буква буле великою capitalize*/
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.team-section-line-one {
+    background-color: #FFFFFF;
+}
+
+/* це можна видалити або відредагувати */
+.conteiner-our-team ul li {
+
+    display: inline-block;
+    padding: 16px 32px;
+
+    border-radius: 3px;
+    background-color: teal;
+    color: white;
+
+    font-family: sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.product-table {
+    border: 1px solid #212121;
+}
