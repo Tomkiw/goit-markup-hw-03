@@ -3,14 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>Document</title>
-    <!-- посилання на нормалізатор стилів css modern-normalize. -->
+    <!-- посилання на ромалізацію стилів css modern-normalize. -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Document</title>
     <!-- посилання на шрифт roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,16 +28,16 @@
   <body>
     <header class="menu-header">
       <div class="container">
-        <nav class="menu-nav">
+        <nav class="main-nav">
           <a href="./index.html" class="logo">Web<span>Studio</span> </a>
-          <ul class="menu-list">
+          <ul>
             <li><a href="./index.html" class="link-studio">Studio</a></li>
             <li><a href="" class="link-studio">Portfolio</a></li>
             <li><a href="" class="link-studio">Contacts</a></li>
           </ul>
         </nav>
         <address class="adress-info">
-          <ul class="header-info">
+          <ul>
             <li>
               <a href="mailto:info@devstudio.com" class="nav-info"
                 >info@devstudio.com</a
@@ -55,42 +54,43 @@
     </header>
     <main>
       <!-- First section -->
-      <section class="section">
+      <section class="top-banner">
         <div class="container">
-          <h1>Effective Solutions for Your Business</h1>
+          <h1 class="top-banner-h-one">
+            Effective Solutions for Your Business
+          </h1>
           <button type="button" class="button-order">Order Service</button>
         </div>
       </section>
       <!-- second section -->
-
-      <section class="section">
+      <section class="strategy">
         <div class="container">
           <h2 class="visually-hidden">Road to best</h2>
           <ul>
             <li>
-              <h3 class="three-h">Strategy</h3>
-              <p class="setting-p">
+              <h3 class="strategy-h-three">Strategy</h3>
+              <p class="team-section-p">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
             <li>
-              <h3 class="three-h">Punctuality</h3>
-              <p class="setting-p">
+              <h3 class="strategy-h-three">Punctuality</h3>
+              <p class="team-section-p">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
             <li>
-              <h3 class="three-h">Diligence</h3>
-              <p class="setting-p">
+              <h3 class="strategy-h-three">Diligence</h3>
+              <p class="team-section-p">
                 Research and confirm brands with the strongest digital growth
                 opportunities and minimize risk.
               </p>
             </li>
             <li>
-              <h3 class="three-h">Technologies</h3>
-              <p class="setting-p">
+              <h3 class="strategy-h-three">Technologies</h3>
+              <p class="team-section-p">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -99,7 +99,7 @@
         </div>
       </section>
       <!-- third section -->
-      <section class="section">
+      <section class="team-section">
         <div class="container">
           <h2 class="team-section-h-second">Our Team</h2>
           <ul>
@@ -110,8 +110,8 @@
                 width="264"
                 height="260"
               />
-              <h3 class="three-h">Mark Guerrero</h3>
-              <p class="setting-p">Product Designer</p>
+              <h3 class="strategy-h-three">Mark Guerrero</h3>
+              <p class="team-section-p">Product Designer</p>
             </li>
             <li class="team-section-line-one">
               <img
@@ -120,8 +120,8 @@
                 width="264"
                 height="260"
               />
-              <h3 class="three-h">Tom Ford</h3>
-              <p class="setting-p">Frontend Developer</p>
+              <h3 class="strategy-h-three">Tom Ford</h3>
+              <p class="team-section-p">Frontend Developer</p>
             </li>
             <li class="team-section-line-one">
               <img
@@ -130,8 +130,8 @@
                 width="264"
                 height="260"
               />
-              <h3 class="three-h">Camila Garcia</h3>
-              <p class="setting-p">Marketing</p>
+              <h3 class="strategy-h-three">Camila Garcia</h3>
+              <p class="team-section-p">Marketing</p>
             </li>
             <li class="team-section-line-one">
               <img
@@ -140,17 +140,17 @@
                 width="264"
                 height="260"
               />
-              <h3 class="three-h">Daniel Wilson</h3>
-              <p class="setting-p">UI Designer</p>
+              <h3 class="strategy-h-three">Daniel Wilson</h3>
+              <p class="team-section-p">UI Designer</p>
             </li>
           </ul>
         </div>
       </section>
       <!-- fort section -->
-      <section class="section">
+      <section class="portfolio">
         <div class="container">
           <h2 class="team-section-h-second">Our Portfolio</h2>
-          <!-- list our portfolio -->
+
           <ul class="portfolio-list">
             <li>
               <img
@@ -160,7 +160,7 @@
                 height="300"
               />
               <h3 class="team-section-line-one-h-thre">Banking App</h3>
-              <p class="setting-p">App</p>
+              <p class="team-section-p">App</p>
             </li>
             <li>
               <img
@@ -169,8 +169,8 @@
                 width="360"
                 height="300"
               />
-              <h3 class="three-h">Cashless Payment</h3>
-              <p class="setting-p">Marketing</p>
+              <h3 class="team-section-line-one-h-thre">Cashless Payment</h3>
+              <p class="team-section-p">Marketing</p>
             </li>
             <li>
               <img
@@ -179,8 +179,8 @@
                 width="360"
                 height="300"
               />
-              <h3 class="three-h">Meditation App</h3>
-              <p class="setting-p">App</p>
+              <h3 class="team-section-line-one-h-thre">Meditation App</h3>
+              <p class="team-section-p">App</p>
             </li>
             <li>
               <img
@@ -189,8 +189,8 @@
                 width="360"
                 height="300"
               />
-              <h3 class="three-h">Taxi Service</h3>
-              <p class="setting-p">Marketing</p>
+              <h3 class="team-section-line-one-h-thre">Taxi Service</h3>
+              <p class="team-section-p">Marketing</p>
             </li>
             <li>
               <img
@@ -199,8 +199,8 @@
                 width="360"
                 height="300"
               />
-              <h3 class="three-h">Screen Illustrations</h3>
-              <p class="setting-p">Design</p>
+              <h3 class="team-section-line-one-h-thre">Screen Illustrations</h3>
+              <p class="team-section-p">Design</p>
             </li>
             <li>
               <img
@@ -209,15 +209,15 @@
                 width="360"
                 height="300"
               />
-              <h3 class="three-h">Online Courses</h3>
-              <p class="setting-p">Marketing</p>
+              <h3 class="team-section-line-one-h-thre">Online Courses</h3>
+              <p class="team-section-p">Marketing</p>
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <footer class="fotter-style">
-      <div class="container">
+    <footer class="footer-style">
+      <div class="container-footer">
         <a href="./index.html" class="logo-footer"
           >Web<span class="footter-span-srudio">Studio</span></a
         >
