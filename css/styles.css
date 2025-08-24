@@ -43,18 +43,7 @@ a {
     color: #2E2F42;
 }
 
-header {
-    font-family: 'Raleway', sans-serif;
-}
 
-header a:hover,
-header a:focus {
-    color: #404BBF;
-}
-
-header a {
-    color: #434455;
-}
 
 h1 {
     font-size: 56px;
@@ -122,20 +111,35 @@ button:hover {
 }
 
 /* header settings */
+header {
+    font-family: 'Raleway', sans-serif;
+}
+
+header a:hover,
+header a:focus {
+    color: #404BBF;
+}
+
+header a {
+    color: #434455;
+}
+
 .menu-header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    padding: 24px 0;
+    max-height: 72px;
 }
 
 .menu-header {
     border-bottom: 1px solid #e7e9fc;
+
 }
 
-.main-nav .logo {
+/* .main-nav .logo {
     padding: 24px 0;
-}
+} */
 
 .main-nav {
     display: flex;
@@ -211,13 +215,13 @@ button:hover {
 .strategy .container {
     display: flex;
     flex-direction: column;
-
+    padding: 120px 0;
 }
 
 .strategy-list {
     display: flex;
     gap: 24px;
-    padding: 120px 0;
+    /* padding: 120px 0; */
 }
 
 .strategy-list:first-child {
@@ -261,7 +265,7 @@ button:hover {
     border-radius: 0 0 4px 4px;
 }
 
-.team-container-text .team-section-h-second {
+.team-section .team-section-h-second {
     margin-bottom: 72px;
 }
 
@@ -371,7 +375,6 @@ button:hover {
     text-transform: uppercase;
     color: #4D5AE5;
     margin-bottom: 16px;
-
 }
 
 
