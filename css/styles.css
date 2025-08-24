@@ -73,22 +73,15 @@ p {
     font-size: 12px;
 }
 
-
-
-
-
-
+img {
+    display: block;
+}
 
 button:hover {
     background-color: #404BBF;
 }
 
-.strategy-h-three {
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
+
 
 .team-section-p {
     font-size: 16px;
@@ -132,6 +125,10 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+}
+
+.menu-header {
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -140,10 +137,10 @@ button:hover {
     align-items: center;
 }
 
-.main-nav ul {
+.nav-list {
     display: flex;
     gap: 40px;
-
+    padding: 24px 0
 }
 
 .adress-info {
@@ -196,6 +193,7 @@ button:hover {
     padding: 16px 32px;
     border: none;
     border-radius: 4px;
+    min-width: 169px;
 }
 
 .button-order:focus {
@@ -203,28 +201,59 @@ button:hover {
 }
 
 /* container four Strategy, Punctuality... */
-.strategy .container {
-    display: flex;
-    flex-direction: column;
-}
-
-.strategy ul {
-    display: flex;
-    gap: 24px;
+.strategy {
     padding: 120px 0;
 }
 
+.strategy .container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.strategy-list {
+    display: flex;
+    gap: 24px;
+    padding: 120px 0;
+    width: calc((100% - 72px) / 4);
+
+}
+
+.strategy-h-three {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.strategy .strategy-h-three {
+    margin-bottom: 8px;
+}
+
+
 /* Our team container */
+.team-section {
+    padding: 120px 0;
+}
+
+.team-section .team-section-h-second {
+    margin-bottom: 72px;
+}
+
 .team-section .container {
     display: flex;
     flex-direction: column;
 }
 
-.team-section ul {
+.team-section-list {
     display: flex;
     gap: 24px;
     justify-content: center;
     margin-bottom: 120px;
+}
+
+.team-section .team-section-h-second {
+    margin-bottom: 72px;
 }
 
 .team-section ul h3,
@@ -232,9 +261,10 @@ button:hover {
     text-align: center;
 }
 
-/*visually-hidden text "Our Tema"  */
+/*text "Our Tema"  */
 /* .team-section-h-second { */
 .visually-hidden {
+    position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -244,6 +274,7 @@ button:hover {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+
 }
 
 /* for section Portfoliol */
@@ -281,17 +312,18 @@ button:hover {
     color: #2e2f42;
 }
 
+/* footer */
 .footer-style {
     background-color: #2E2F42;
     color: white;
     display: flex;
+    padding: 100px 0;
 }
 
-.footer-style .container-footer {
+.footer-style .container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 100px 0 100px 156px;
 
 }
 
@@ -306,7 +338,10 @@ button:hover {
     text-transform: uppercase;
     color: #4D5AE5;
     margin-bottom: 16px;
+    display: inline-block;
 }
+
+
 
 .logo-footer span {
     color: #f4f4FD;
