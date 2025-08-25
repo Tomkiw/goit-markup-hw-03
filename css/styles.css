@@ -94,7 +94,6 @@ button:hover {
 }
 
 .team-section-line {
-
     width: calc((100% - 72px) / 4);
 }
 
@@ -306,7 +305,7 @@ header a {
 }
 
 .portfolio-line {
-    width: calc(100% - 18px) / 3;
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-list {
@@ -370,12 +369,10 @@ header a {
     align-items: flex-start;
 }
 
-.footer-style .container a {
-    display: inline-block;
-}
+
 
 .logo-footer {
-
+    display: inline-block;
     color: white;
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
