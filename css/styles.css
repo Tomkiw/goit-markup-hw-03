@@ -34,6 +34,7 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding: 24px 0;
 }
 
 
@@ -93,8 +94,8 @@ button:hover {
 }
 
 .team-section-line {
-    background-color: #FFFFFF;
-    width: calc((100% - 72px)/4);
+
+    width: calc((100% - 72px) / 4);
 }
 
 
@@ -228,15 +229,11 @@ header a {
     /* padding: 120px 0; */
 }
 
-.strategy-line {
+/* це треш просто  */
+.strategy-list li {
     width: calc((100% - 72px) / 4);
     ;
 }
-
-.strategy-list:first-child {
-    width: calc((100% - 72px) / 4);
-}
-
 
 .strategy-h-three {
     font-weight: 500;
@@ -266,11 +263,11 @@ header a {
     gap: 24px;
     justify-content: center;
     margin-bottom: 120px;
-
+    /* width: calc((100% - 72px) / 4); */
 }
 
 .team-section-list li {
-    width: calc((100% - 72px) / 4);
+
     border-radius: 0 0 4px 4px;
 }
 
@@ -371,11 +368,14 @@ header a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
 
+.footer-style .container a {
+    display: inline-block;
 }
 
 .logo-footer {
-    display: inline-block;
+
     color: white;
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
@@ -386,13 +386,14 @@ header a {
     text-transform: uppercase;
     color: #4D5AE5;
     margin-bottom: 16px;
+
 }
 
 
 
 .logo-footer span {
     color: #f4f4FD;
-    display: inline-block;
+
 }
 
 .footer-p {
