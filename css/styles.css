@@ -230,7 +230,7 @@ header a {
 }
 
 /* це треш просто  */
-.strategy-list li {
+.strategy-line {
     width: calc((100% - 72px) / 4);
     ;
 }
