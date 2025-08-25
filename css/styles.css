@@ -92,10 +92,11 @@ button:hover {
     color: #2E2F42;
 }
 
-.team-section-line-one {
+.team-section-line {
     background-color: #FFFFFF;
-
+    width: calc((100% - 72px)/4);
 }
+
 
 .team-section-line-one-h-thre {
     font-weight: 500;
@@ -105,7 +106,7 @@ button:hover {
 }
 
 .container {
-    max-width: 1158px;
+    max-width: 1440px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -128,7 +129,7 @@ header a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 0;
+    padding: 0 15px;
     max-height: 72px;
 }
 
@@ -149,7 +150,7 @@ header a {
 .nav-list {
     display: flex;
     gap: 40px;
-    /* padding: 24px 0 */
+    padding: 24px 0;
 }
 
 .adress-info {
@@ -211,17 +212,25 @@ header a {
 
 /* container four Strategy, Punctuality... */
 
+.strategy {
+    padding: 120px 0;
+}
 
 .strategy .container {
     display: flex;
     flex-direction: column;
-    padding: 120px 0;
+
 }
 
 .strategy-list {
     display: flex;
     gap: 24px;
     /* padding: 120px 0; */
+}
+
+.strategy-line {
+    width: calc((100% - 72px) / 4);
+    ;
 }
 
 .strategy-list:first-child {
@@ -297,8 +306,10 @@ header a {
 /* for section Portfoliol */
 .porportfolio .container {
     display: flex;
+}
 
-
+.portfolio-line {
+    width: calc(100% - 18px) / 3;
 }
 
 .portfolio-list {
