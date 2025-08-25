@@ -359,8 +359,8 @@ header a {
 .footer-style {
     background-color: #2E2F42;
     color: white;
-    display: flex;
     padding: 100px 0;
+    justify-content: flex-start;
 }
 
 .footer-style .container {
