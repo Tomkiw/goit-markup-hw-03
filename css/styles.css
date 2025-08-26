@@ -340,7 +340,7 @@ header a {
     display: flex;
     flex-direction: column;
     border-bottom: solid 1px #E7E9FC;
-    /* min-height: 420px; */
+
     width: calc((100% - 48px) / 3);
 }
 
