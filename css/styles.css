@@ -37,6 +37,8 @@ ol {
     letter-spacing: 0.02em;
     color: #2E2F42;
     padding: 24px 0;
+    /* metor helxp x) */
+    display: block;
 }
 
 
@@ -46,7 +48,16 @@ a {
     color: #2E2F42;
 }
 
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
 
 h1 {
     font-size: 56px;
@@ -116,9 +127,7 @@ button:hover {
 }
 
 /* header settings */
-header {
-    font-family: 'Raleway', sans-serif;
-}
+
 
 header a:hover,
 header a:focus {
@@ -154,7 +163,7 @@ header a {
 .nav-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -288,7 +297,7 @@ header a {
 
 .team-section .team-section-h-second {
     /* margin-bottom: 72px; */
-    padding-bottom: 72px;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
@@ -350,7 +359,7 @@ header a {
 
 
 .portfolio {
-    margin: 120px 0;
+
     padding-top: 120px;
     padding-bottom: 120px;
 
